@@ -1,0 +1,3 @@
+gcc -c c-sum.c -o c-sum.o
+gcc -c f-main.f90 -o f-main.o
+gcc -v c-sum.o f-main.o -lgfortran -o f-main.e

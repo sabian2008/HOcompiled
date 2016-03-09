@@ -1,0 +1,1 @@
+gcc -c f-sum.f90 -o f-sum.o && gcc -c c-main.c -o c-main.o && gcc -v f-sum.o -lgfortran c-main.o -o c-main.e

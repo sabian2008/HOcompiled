@@ -1,0 +1,4 @@
+Con nm saco el símbolo en cpp-sum.o: _Z7sum_absPKii
+Edito c-main de acuerdo a ello (medio trampa). Alternativamente podría usar un bloque extern en C++.
+Compilo con:
+gcc -c cpp-sum.cpp -o cpp-sum.o && gcc -c c-main.c -o cmain.o && gcc -v cpp-sum.o c-main.o -o c-main.e

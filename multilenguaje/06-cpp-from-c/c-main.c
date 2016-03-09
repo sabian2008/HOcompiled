@@ -6,19 +6,13 @@
 
 int main(int argc, char **argv)
 {
-    int i;
-    int data[NUM];
-    int num;
-    int out;
+    int data[NUM], num, i;
 
-    out = 0;
     num = NUM;
     for (i=0; i < num; i++) {
         data[i] = i - 100 + 1;  /* NOTE: difference in array numbering */
     }
 
-    sum_abs_(data, &num, &out);
-
-    printf("sum=%d\n", out);
+    printf("sum=%d\n", _Z7sum_absPKii(data, num));
     return 0;
 }
