@@ -2,7 +2,7 @@
 
 El preprocessing sólo tendría que hacer un reemplazo de elementos que en el
 código original se encuentran abreviados. Reemplaza los includes por los archivos
-`.h` completos, "desenrolla" los loops, etc. El archivo resultante sigue siendo
+`.h` completos, se encarga de los macros, etc. El archivo resultante sigue siendo
 código C pero (en general) notablemente más extenso.
 
 El segundo paso compila C a Assembler. Reemplaza los comandos portables de C
